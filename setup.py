@@ -7,17 +7,17 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="claude-history-pretty",
+    name="pretty-history-claude-code",
     version="0.1.0",
     author="Your Name",
     author_email="your.email@example.com",
     description="Claude Code history viewer - Format Claude Code session history files",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pretty-history-claude-code",
+    url="https://github.com/shiroinock/pretty-history-claude-code",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/pretty-history-claude-code/issues",
-        "Source": "https://github.com/yourusername/pretty-history-claude-code",
+        "Bug Reports": "https://github.com/shiroinock/pretty-history-claude-code/issues",
+        "Source": "https://github.com/shiroinock/pretty-history-claude-code",
     },
     classifiers=[
         "Development Status :: 3 - Alpha",

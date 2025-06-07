@@ -30,8 +30,8 @@ claude-history = "claude_history_pretty:main"
 claude-history-raw = "claude_history_parser:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/pretty-history-claude-code"
-"Bug Tracker" = "https://github.com/yourusername/pretty-history-claude-code/issues"
+Homepage = "https://github.com/shiroinock/pretty-history-claude-code"
+"Bug Tracker" = "https://github.com/shiroinock/pretty-history-claude-code/issues"
 
 [tool.setuptools]
 py-modules = ["claude_history_pretty", "claude_history_parser"]

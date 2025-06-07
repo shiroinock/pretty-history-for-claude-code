@@ -20,18 +20,27 @@ JSON Lines (`.jsonl`) 形式の履歴ファイルを解析し、様々なスタ�
 
 ## インストール
 
-### PyPIから（推奨）
+### GitHubから（推奨）
 
 ```bash
-pip install claude-history-pretty
-```
-
-### ソースから（開発用）
-
-```bash
-git clone https://github.com/yourusername/pretty-history-claude-code.git
+git clone https://github.com/shiroinock/pretty-history-claude-code.git
 cd pretty-history-claude-code
 pip install -e .
+```
+
+### 直接実行（インストール不要）
+
+```bash
+git clone https://github.com/shiroinock/pretty-history-claude-code.git
+cd pretty-history-claude-code
+python3 src/claude_history.py --menu
+```
+
+### 将来的なPyPI公開
+
+```bash
+# 将来的に利用可能予定
+pip install claude-history-pretty
 ```
 
 ## 表示形式
@@ -124,7 +133,9 @@ claude-history --theme plain      # プレーンテキスト
 ### インストール後の使用方法
 
 ```bash
-# インストール実行
+# GitHubからクローンしてインストール
+git clone https://github.com/shiroinock/pretty-history-claude-code.git
+cd pretty-history-claude-code
 pip install -e .
 
 # 対話的メニューモード（推奨）
