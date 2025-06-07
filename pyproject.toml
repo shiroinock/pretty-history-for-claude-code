@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-history-pretty"
+version = "0.1.0"
+description = "Claude Code history viewer - Format Claude Code session history files"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.scripts]
+claude-history = "claude_history_pretty:main"
+claude-history-raw = "claude_history_parser:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/pretty-history-claude-code"
+"Bug Tracker" = "https://github.com/yourusername/pretty-history-claude-code/issues"
+
+[tool.setuptools]
+py-modules = ["claude_history_pretty", "claude_history_parser"]

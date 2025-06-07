@@ -1,0 +1,29 @@
+NOTICE
+
+This software includes components and design elements that may be inspired by 
+various conversation interface patterns and terminal applications.
+
+IMPORTANT DISCLAIMERS:
+
+1. NO AFFILIATION: This software is not affiliated with, endorsed by, or 
+   officially connected with Anthropic, Claude, or any related services. 
+   Any resemblance to existing interfaces is purely coincidental and for 
+   functional purposes only.
+
+2. RESPONSIBLE USE: This software is intended for educational and personal use. 
+   Users must ensure their use complies with all applicable terms of service 
+   of any platforms whose data they access or view.
+
+3. DATA RESPONSIBILITY: Users are solely responsible for the security, privacy, 
+   and appropriate handling of any data processed by this software. The software 
+   processes data locally and does not transmit data to external services.
+
+4. INTELLECTUAL PROPERTY: The authors make no warranty that this software does 
+   not infringe upon third-party intellectual property rights. Users should 
+   conduct their own due diligence regarding intellectual property compliance.
+
+5. TERMS OF SERVICE COMPLIANCE: Users are responsible for ensuring their use 
+   of this software complies with any applicable third-party terms of service.
+
+This notice supplements but does not modify the MIT License terms under which 
+this software is distributed.
